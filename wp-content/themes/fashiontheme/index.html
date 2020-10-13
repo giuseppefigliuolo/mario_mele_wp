@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Mario Mele</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="topbar">
+        <div class="topbar__logo">
+          <a href="./index.html"><img src="img/Logo.svg" alt="mariomele-logo" /></a>
+        </div>
+        <a href="index.html"><p class="topbar__full_logo hidden capitalize">mario mele</p></a>
+        <div class="topbar__menu"><img src="img/menu.svg" alt="logo-menu" /></div>
+        <ul class="desktop topbar__links">
+          <li class="dropdown-portfolio">
+            Portfolio
+            <div class="dropdown-content">
+              <a href="#lukania">Lukania</a>
+              <a href="#time-is-now">Time is now</a>
+              <a href="#trd-project">Progetto 3</a>
+            </div>
+          </li>
+          <li><a href="#chi-sono">Chi sono</a></li>
+          <li><a href="#contattami">Contattami</a></li>
+        </ul>
+      </div>
+      <nav id="side-menu" class="sidemenu">
+        <div class="sidemenu__header">
+          <div class="sidemenu__close-logo"><img src="img/close-menu.svg" alt="" /></div>
+          <p class="sidemenu__logo">mario mele</p>
+        </div>
+        <div class="sidemenu__body">
+          <div class="sidemenu__body__ul">
+            <ul>
+              <li><a href="#chi-sono">Chi sono</a></li>
+              <li><a href="#contattami">Contattami</a></li>
+            </ul>
+          </div>
+          <div class="sidemenu__body__portfolio">
+            <p class="capitalize">portfolio</p>
+          </div>
+          <div class="sidemenu__body__ul">
+            <ul>
+              <li><a href="#lukania">Lukania</a></li>
+              <li><a href="#time-is-now">Time is now</a></li>
+              <li><a href="#trd-project">Project 3</a></li>
+            </ul>
+          </div>
+          <div class="sidemenu__body__social">
+            <img class="sidemenu__body__social__bg" src="img/Rectangle-25.svg" />
+            <div class="sidemenu__body__social__icons">
+              <a href="https://www.facebook.com/marioemmemele/"><img src="img/fb_logo.svg" alt="logo facebook" /></a>
+              <a href="https://www.instagram.com/mario_emme_mele/"><img src="img/instagram_logo.svg" alt="logo instagram" /></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main class="landing">
+        <div class="landing__description">
+          <h2>
+            <span> Fashion Designer </span><br />
+            based in Milano
+          </h2>
+        </div>
+        <div class="landing__name capitalize" data-aos="fade-up">
+          <h1>mario mele</h1>
+        </div>
+        <img src="./img/lukania/lukania-5.jpg" alt="immagine del progetto lukania" class="landing__small-img" data-aos="fade-right" />
+        <div class="landing__big-img">
+          <img src="./img/lukania/bg_vediamo_s.png" alt="" data-aos="fade-up" />
+        </div>
+        <img src="./img/rettangolo-home.svg" alt="" class="landing__rectangle" />
+        <div class="landing__scroll-down">
+          <p>Dai un'occhiata ai miei progetti</p>
+          <a href="#lukania"><img src="./img/icon-down.svg" alt="" /></a>
+        </div>
+      </main>
+    </div>
+    <section id="lukania" class="project">
+      <div class="project__gallery">
+        <a href="./lukania.html">
+          <div class="project__gallery__img-container">
+            <img src="./img/lukania/lukania-1.jpg" alt="" /><img src="./img/lukania/lukania-7.jpg" alt="" /><img
+              src="./img/lukania/lukania-2.jpg"
+              alt="presentazione-galleria progetto lukania"
+            />
+          </div>
+        </a>
+      </div>
+      <div class="project__description">
+        <a href="#">
+          <h2 class="h2-italic">. Lukania</h2>
+          <p>Full/Winter 2020/2021</p>
+          <p><span>@istitutomarangoni</span></p>
+          <p>Palazzo Viceconte, Matera</p>
+        </a>
+      </div>
+      <a class="project__btn" href="./lukania.html"
+        ><button><p>Scopri di più</p></button></a
+      >
+    </section>
+    <section id="time-is-now" class="project">
+      <div class="project__video">
+        <iframe
+          src="https://www.youtube.com/embed/Tx9zMFodNtA"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="project__description">
+        <a href="#">
+          <h2 class="h2-italic">. Time is now</h2>
+          <p>Full/Winter 2020/2021</p>
+          <p><span>@istitutomarangoni</span></p>
+          <p>Palazzo Viceconte, Matera</p>
+        </a>
+      </div>
+      <a class="project__btn" href="./time-is-now.html"
+        ><button><p>Scopri di più</p></button></a
+      >
+    </section>
+    <section id="trd-project" class="project">
+      <div class="project__gallery">
+        <a href="./progetto-3.html">
+          <div class="project__gallery__img-container">
+            <img src="./img/lukania/lukania-3.jpg" alt="" /><img src="./img/lukania/lukania-4.jpg" alt="" /><img
+              src="./img/lukania/lukania-8.jpg"
+              alt=""
+            />
+          </div>
+        </a>
+      </div>
+      <div class="project__description">
+        <a href="#">
+          <h2 class="h2-italic">. Progetto 3</h2>
+          <p>Full/Winter 2020/2021</p>
+          <p><span>@istitutomarangoni</span></p>
+          <p>Palazzo Viceconte, Matera</p>
+        </a>
+      </div>
+      <a class="project__btn" href="./lukania.html"
+        ><button><p>Scopri di più</p></button></a
+      >
+    </section>
+    <section id="chi-sono" class="about">
+      <h2 class="h2-italic">Mi presento.</h2>
+      <div class="about__img-container">
+        <img class="about__img-container__bio-pic" src="./img/bio-pic.jpg" alt="mario-mele" />
+        <img class="about__img-container__blue-rec" src="./img/rettangolo-blu-about.svg" alt="" />
+      </div>
+      <div class="about__quote">
+        <p class="about__quote__main">“La moda è la maniera di dire chi sei senza dover parlare.”</p>
+        <p class="about__quote__author">Rachel Zoe</p>
+      </div>
+      <p class="about__bio paragraph">
+        Amet mini <b>mollit</b> non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia <b>consequat</b> duis enim velit mollit.
+        Exercitation veniam consequat sunt nostrud amet. Nulla Lorem mollit <b>cupidatat</b> irure. Laborum magna nulla duis ullamco cillum dolor.
+        Voluptate <b>exercitation</b> incididunt aliquip deserunt reprehenderit elit laborum. Amet mini mollit non deserunt <b>ullamco</b> est sit
+        aliqua dolor do amet sint. Velit officia <b>consequat</b> duis enim velit mollit. Exercitation veniam consequat sunt <b>nostrud</b> amet.
+        Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco <b>cillum</b> dolor. Voluptate exercitation incididunt aliquip deserunt
+        re
+      </p>
+    </section>
+    <section id="contattami" class="contact">
+      <h2 class="h2-italic">Contattami.</h2>
+      <div class="contact__info">
+        <h3>e-mail</h3>
+        <a href="mailto:marioemmemele@gmail.com"><p>marioemmemele@gmail.com</p></a>
+        <h3>telefono</h3>
+        <a href="tel:+39 3318531941"
+          ><p>
+            +39 331 8531941
+          </p></a
+        >
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/marioemmemele/"><img src="./img/fb_logo_white.svg" alt="mario-mele facebook" /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/mario_emme_mele/"><img src="./img/instagram_logo_white.svg" alt="mario-mele instagram" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="contact__form">
+        <!-- <form action="#">
+          <input type="text" id="fname" name="firstname" placeholder="Nome" />
+          <input type="text" id="email" name="email" placeholder="E-Mail" />
+          <textarea type="text" id="message" name="message" placeholder="Messaggio..."></textarea>
+          <button>
+            <p>
+              Invia
+            </p>
+          </button>
+        </form> -->
+      </div>
+    </section>
+
+    <script src="./js/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
